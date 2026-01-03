@@ -15,10 +15,10 @@ export default function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/:slug" element={<ProjectDetail />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/Portfolio" element={<Home />} />
+        <Route path="/Portfolio/projects" element={<Projects />} />
+        <Route path="/Portfolio/projects/:slug" element={<ProjectDetail />} />
+        <Route path="/Portfolio/contact" element={<Contact />} />
       </Routes>
 
       <Footer />

@@ -3,11 +3,11 @@ export const SITE = {
   role: "Computer Science + Data Science • Stats minor",
   tagline: "I build clean data pipelines, practical ML models, and polished apps.",
   location: "Iowa State University",
-  email: "logan@example.com",
+  email: "loganbecker034@gmail.com",
   links: {
-    github: "https://github.com/",
-    linkedin: "https://www.linkedin.com/",
-    resume: "/resume.pdf",
+    github: "https://github.com/loganbecker2",
+    linkedin: "https://www.linkedin.com/in/logan-becker2/",
+    resume: "/Portfolio/resume.pdf",
   },
   highlights: [
     { label: "Focus", value: "Sports analytics, CV, full-stack" },
@@ -30,7 +30,7 @@ export const PROJECTS = [
     short: "College basketball prediction pipeline: scrape → store → features → models.",
     stack: ["Python", "Pandas", "MySQL", "ML"],
     links: {
-      repo: "https://github.com/",
+      repo: "https://github.com/loganbecker2",
       demo: "",
     },
     impact: [
@@ -49,7 +49,7 @@ export const PROJECTS = [
     title: "UniTrade",
     short: "Android university marketplace with listings + real-time bid updates.",
     stack: ["Java", "Android", "APIs"],
-    links: { repo: "https://github.com/", demo: "" },
+    links: { repo: "https://github.com/loganbecker2", demo: "" },
     impact: [
       "Designed clean listing flows and data model for marketplace posts.",
       "Integrated API requests and real-time bidding updates.",
@@ -65,7 +65,7 @@ export const PROJECTS = [
     title: "Robotic Chess Vision Pipeline",
     short: "Detect pieces → map board → generate FEN → drive chess engine decisions.",
     stack: ["YOLO", "OpenCV", "ROS"],
-    links: { repo: "https://github.com/", demo: "" },
+    links: { repo: "https://github.com/loganbecker2", demo: "" },
     impact: [
       "Built a pipeline from vision detection to structured board state output.",
       "Improved reliability with calibration + mapping logic.",
