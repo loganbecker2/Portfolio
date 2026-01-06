@@ -65,7 +65,7 @@ export default function ProjectDetail() {
             </div>
           </Card>
 
-          <Link className="text-sm font-semibold text-neutral-900 hover:text-neutral-700 dark:text-white dark:hover:text-neutral-200" to="/projects">
+          <Link className="text-sm font-semibold text-neutral-900 hover:text-neutral-700 dark:text-white dark:hover:text-neutral-200" to="/Portfolio/projects">
             ← Back to Projects
           </Link>
         </div>

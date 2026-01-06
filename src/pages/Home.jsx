@@ -62,7 +62,7 @@ export default function Home() {
             <h2 className="text-xl font-semibold text-neutral-900 dark:text-white">Featured Projects</h2>
             <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-300">Click one for a detailed case-study page.</p>
           </div>
-          <Link className="text-sm font-semibold text-neutral-900 hover:text-neutral-700 dark:text-white dark:hover:text-neutral-200" to="/projects">
+          <Link className="text-sm font-semibold text-neutral-900 hover:text-neutral-700 dark:text-white dark:hover:text-neutral-200" to="/Portfolio/projects">
             View all →
           </Link>
         </div>
