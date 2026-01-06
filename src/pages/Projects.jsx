@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <Page
       title="Projects"
-      subtitle="Data, systems, and apps—written like case studies so recruiters can understand what you actually did."
+      subtitle="PLACEHOLDER"
     >
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {PROJECTS.map((p) => (
