@@ -7,7 +7,7 @@ export const SITE = {
   links: {
     github: "https://github.com/loganbecker2",
     linkedin: "https://www.linkedin.com/in/logan-becker2/",
-    resume: "/Portfolio/resume.pdf",
+    resume: "/Portfolio/resume",
   },
   highlights: [
     { label: "Focus", value: "Sports analytics, CV, full-stack" },

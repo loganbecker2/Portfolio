@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Page from "../components/Page";
 import { SITE, PROJECTS, SKILLS } from "../data/site";
+import EmailReveal from "../components/EmailReveal";
 
 function Pill({ children }) {
   return (
@@ -32,12 +33,7 @@ export default function Home() {
         </div>
 
         <div className="mt-8 flex flex-wrap gap-3">
-          <a
-            className="rounded-xl bg-black px-4 py-2 text-sm font-semibold text-white hover:bg-neutral-800"
-            href={`mailto:${SITE.email}`}
-          >
-            Email Me
-          </a>
+          <EmailReveal />
           <a
             className="rounded-xl border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-900 hover:bg-neutral-50
                        dark:border-neutral-800 dark:bg-neutral-950 dark:text-white dark:hover:bg-neutral-900"
